@@ -1,51 +1,116 @@
 <html>
-        <head>
-        <title>Signup</title>
+    <head>
+        <title>signup</title>
+    </head> 
+    <body bgcolor="#E0E0E0">
+        <litle><b>FORMULARIO REGISTRO</title>
+    </head>
+     <body>
 
-        <link rel="icon" type="image/ico" href= "icons/logo1.png"/>       
+     <form>
+    <label for="nombre">Nombre:</label> <input type="txt" placeholder="Escribe tu mombre" maxlength="" name="nombre" id="nombre"><br> <imput type pattern=[A-Z] {3.15} title="solo se aceptan LETRAS">
 
-        </head>    
+    <label for="nombre">Apellido:</label>  <input type="txt" placeholder="Escribe tu Apellido" maxlength="" name="nombre" id="nombre"><br>
 
-        <body bgcolor="#334BFF">       
-         <center> <b><u><h1>formularo de registro.</b> <h1></center>
-        <center> <img src="icons/logo2.png"width ="350"> </center><br>
-
-        <center> login </center><br><font size="20" bgcolor="#334BFF"="black" face="arial"></font>
-        <center>nombres</center>
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br> 
-        <center>apellidos</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>nro identificacion</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>genero</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>telefono</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>celular</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>departamento nacimientos</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>ciudad de nacimiento</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>correo electronico </center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>contraseña</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>confirmar contraseña</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        <center>foto</center><br> 
-        <center><input type="text"  minlength="3" placeholder="usuario@usuario" minlength="3"  </center><br><br>
-        tipo de identificacion  <input type="text"  minlength="3" placeholder="" minlength="3">   
-
+        <label for="nombre">numero de id:</label>    <input type="text" name="tel" value="" maxlength="20" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;"><br><br> 
         
         
         
-        
-        <input type ="submit" value="registrarme"<br> 
-        <center> <b>olvide mi contraseña.</b> </center><br><a href="reset_pass.html">Olvide mi contraseña></a>
-        <center> <a href="https://www.youtube.com/?gl=CO&hl=es-419" target="BLANK"> <img src="icons/youtube.png"width ="80"> </center><br>
-        
 
-        </body> 
-        </html>
     
+
+
+
+
+
+        <label for="Nombre">Genero:</label>
+        <input type="checkbox" name="" id="">masculino
+        <input type="checkbox" name="" id="">femenino
+        <br>
+        <label for="Nombre">Telefono:</label> <input type="txt" placeholder="Telefono" maxlength="" name="nombre" id="nombre"><br>
+
+        <label for="nombre">Celular:</label> <input type="txt" placeholder="celular" maxlength="" name="nombre" id="nombre"><br>
+
+
+
+        <label for="nombre">Departamento:</label>
+        <br><select name="" id=""><br>
+        <option value="Amazona">Amazona</opttion>
+        <option value="Antioquia">Antioquia</opttion>
+        <option value="Arauca">Arauca</opttion>
+        <option value="Atlántico" >Atlántico</opttion>
+        <option value="Bolívar" >Bolívar</opttion>
+        <option value="Boyacá" >Boyacá</opttion>
+        <option value="Caldas" >Caldas</opttion>
+        <option value="Caquetá" >Caquetá</opttion>
+        <option value="Casanare" >Casanare</opttion>
+        <option value="Narino" >Narino</opttion>
+                </select>
+            
+                <br>
+        <label for="nombre">Ciudad de nacimiento </label>
+        <br><select name="" id=""><br>
+        <option value="Cali">Cali</opttion>
+        <option value="Pasto">Pasto</opttion>
+        <option value="Bogotá">Bogotá</opttion>
+        <option value="Cartagena" >Cartagena</opttion>
+        <option value="Medellín" >Medellín</opttion>
+        <option value="Popayán" >Popayán</opttion>
+        <option value="Manizales" >Manizales</opttion>
+        <option value="Quibdó" >Quibdó</opttion>
+        <option value="Montería" >Montería</opttion>
+        <option value="San Andres" >San Andres</opttion>
+                                                <br> </select><br>
+
+        <label for="nombre">Correo Electronico</label> <input type="txt" placeholder="email" maxlength="" name="nombre" id="nombre"><br>
+
+        <label for="nombre">Contrasena</label> <input type="password" placeholder="password" maxlength="" name="nombre" id="nombre"><br>
+
+        <label for="nombre">Confirmar contrasena</label><input type="txt" placeholder="confirmar" maxlength="" name="nombre" id="nombre"><br>
+
+        <label for="nombre">Foto</label>  <input type="file"> <input type="txt" placeholder="foto" maxlength="" name="nombre" id="nombre"><br>
+
+        <label for="nombre">Numero de id</label>
+        <br> <input type="txt" placeholder="numero  id" maxlength="" name="nombre" id="nombre"><br>
+
+        <label for="nombre">Tipo de identificacion</label>
+        <br><select name="" id=""><br>
+        <option value="cédula de identidad (CI)">cédula de identidad (CI)</opttion>
+        <option value="cédula de ciudadanía (CC)">cédula de ciudadanía (CC)</opttion>
+        <option value="tarjeta de identidad (TI)">tarjeta de identidad (TI)</opttion>
+        <option value="tarjeta pasaporte (TP)">tarjeta pasaporte (TP)</opttion>
+        <option value="registro civil (RC)">registro civil (RC)</opttion>
+        <option value="identificación (ID)">identificación (ID)</opttion>
+                            
+              <BUtton>
+
+                        <input type="submit"><br>
+
+
+              </BUtton>                          
+
+ 
+
+
+              <form name="formulario" method="post" action="http://pagina.com/send.php">
+                <!-- Datos del formulario -->
+                
+                <!-- Botón de envío de formulario -->
+                <input type="submit" value="Enviar formulario">
+            </form>
+
+
+
+
+
+
+            
+
+
+
+       
+
+ </form>
+
+    </body>
+</html>
