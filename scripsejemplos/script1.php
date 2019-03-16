@@ -1,4 +1,5 @@
-<?
+<?php 
+
  //  mi primer scropt em php 
  // desarrollado por : juan argoti 
 
