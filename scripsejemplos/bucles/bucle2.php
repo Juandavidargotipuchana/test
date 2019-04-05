@@ -14,9 +14,10 @@
 	
 	echo "<hr>"; 
 	echo "<table border = '1'> <tr>";
-	for($i=1;$i<=10;$i++)
+	
+	for($i=1;$i<=100;$i++) 
 	{	
-		if ($i%2==0) {
+		if ($i% 2==0) {
 			echo "<td bgcolor='yellow'> ".$i. "</td>";
 		} else {  
 			echo "<td bgcolor='green'>".$i. "</td>";
